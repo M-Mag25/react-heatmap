@@ -16,7 +16,7 @@ const initialState = {
 const middlewares = [thunk];
 const mockStore = configureMockStore(middlewares);
 const store = mockStore(initialState);
-
+console.log("hello")
 describe('<Home/>', () => {
   it('should render without crashing', () => {
     mount(
